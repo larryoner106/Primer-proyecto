@@ -1,0 +1,43 @@
+.movie__container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.movie__image {
+  width: 100%;
+  height: auto;
+}
+
+.movie__description {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.movie__rating {
+  margin-top: 1rem;
+}
+
+/* Animación para rotar las películas */
+@keyframes rotate-movies {
+  0% {
+    opacity: 0;
+    transform: rotateY(0deg);
+  }
+  20% {
+    opacity: 1;
+    transform: rotateY(90deg);
+  }
+  80% {
+    opacity: 1;
+    transform: rotateY(270deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotateY(360deg);
+  }
+}
+
+.movie__container {
+  animation: rotate-movies 10s ease-in-out infinite;
+}

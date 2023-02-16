@@ -1,0 +1,67 @@
+/* Establecer la fuente de la familia Arial y un color de fondo verde para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #17ce5a;
+}
+
+/* Alinear el encabezado principal en el centro, agregar un color de texto de #333 y establecer un tamaño de fuente de 36 píxeles */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+  font-size: 36px;
+  /* Agregar una sombra de texto suave para hacer el texto más legible */
+  text-shadow: 1px 1px #ccc;
+}
+
+/* Establecer un ancho máximo de 600 píxeles para el formulario, un margen de 50 píxeles en la parte superior e inferior y un relleno de 20 píxeles */
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  /* Establecer un color de fondo blanco para el formulario */
+  background-color: #fff;
+  /* Agregar un borde redondeado de 5 píxeles */
+  border-radius: 5px;
+  /* Agregar una sombra de caja suave */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Mostrar las etiquetas como bloques con un margen inferior de 10 píxeles, un peso de fuente en negrita y un color de texto de #333 */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Establecer un ancho de 100% para los elementos de entrada y texto, un padding de 10 píxeles, un borde de 1 píxel de ancho con un color de #ccc y un margen inferior de 20 píxeles */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  /* Establecer un tamaño de fuente de 16 píxeles */
+  font-size: 16px;
+}
+
+/* Agregar un fondo claro de #f9f9f9 a los elementos de entrada de texto, correo electrónico y contraseña */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  background-color: #f9f9f9;
+}
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+

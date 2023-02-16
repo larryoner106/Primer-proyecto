@@ -1,0 +1,173 @@
+/* Estilos para el encabezado */
+header {
+  background-color: #27cce2;
+  color: #b7df27;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  flex-wrap: wrap; /* Agregamos esta línea para adaptar el encabezado a pantallas pequeñas */
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0; /* Agregamos esta línea para evitar que el encabezado ocupe demasiado espacio en pantallas pequeñas */
+  flex-basis: 100%; /* Agregamos esta línea para que el encabezado ocupe todo el ancho de la pantalla en pantallas pequeñas */
+  text-align: center; /* Agregamos esta línea para centrar el encabezado en pantallas pequeñas */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; /* Agregamos esta línea para adaptar la lista de navegación a pantallas pequeñas */
+  justify-content: center; /* Agregamos esta línea para centrar los elementos de la lista de navegación en pantallas pequeñas */
+  margin-top: 1em; /* Agregamos esta línea para separar la lista de navegación del encabezado en pantallas pequeñas */
+}
+
+nav ul li {
+  margin: 0 0.5em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em; /* Agregamos esta línea para reducir el tamaño del texto en pantallas pequeñas */
+}
+
+/* Estilos para los juegos */
+section {
+  margin: 2em 0;
+}
+
+section h2 {
+  font-size: 1.5em; /* Agregamos esta línea para reducir el tamaño del título en pantallas pequeñas */
+  margin-bottom: 1em;
+}
+
+.juego {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Agregamos esta línea para que los juegos ocupen todo el ancho de la pantalla en pantallas pequeñas */
+}
+
+.juego img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.juego h3 {
+  font-size: 1.2em; /* Agregamos esta línea para reducir el tamaño del título en pantallas pequeñas */
+  margin: 0;
+  text-align: center;
+}
+
+.juego p {
+  margin: 1em 0;
+  text-align: center;
+  font-size: 0.9em; /* Agregamos esta línea para reducir el tamaño del texto en pantallas pequeñas */
+}
+
+.juego a {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.juego a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+/* el pie de página */
+footer {
+background-color: #f0f0f0;
+color: #333;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 1em;
+}
+
+.redes-sociales h3 {
+font-size: 1.5em;
+margin-bottom: 1em;
+}
+
+.redes-sociales ul {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+flex-wrap: wrap; /* Agregamos esta línea para adaptar la lista de redes sociales a pantallas pequeñas */
+justify-content: center; /* Agregamos esta línea para centrar los elementos de la lista de redes sociales en pantallas pequeñas */
+}
+
+.redes-sociales ul li {
+margin: 0 0.5em;
+}
+
+.redes-sociales ul li a {
+color: #333;
+text-decoration: none;
+font-size: 1em; /* Agregamos esta línea para reducir el tamaño del texto en pantallas pequeñas */
+}
+
+.informacion h3 {
+font-size: 1.5em;
+margin-bottom: 1em;
+}
+
+.informacion p {
+margin: 0.5em 0;
+font-size: 0.9em; /* Agregamos esta línea para reducir el tamaño del texto en pantallas pequeñas */
+}
+
+.derechos p {
+margin: 0;
+font-size: 0.8em;
+text-align: right;
+flex-basis: 100%; /* Agregamos esta línea para que los derechos de autor ocupen todo el ancho de la pantalla en pantallas pequeñas */
+margin-top: 1em; /* Agregamos esta línea para separar los derechos de autor de la información de contacto en pantallas pequeñas */
+text-align: center; /* Agregamos esta línea para centrar los derechos de autor en pantallas pequeñas */
+}
+
+div {
+  margin: 10px;
+  flex-basis: 100%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
